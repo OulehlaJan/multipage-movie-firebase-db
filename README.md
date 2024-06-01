@@ -1,4 +1,4 @@
-![GitHub License](https://img.shields.io/github/license/oulehlajan/multipage-firebase-movie-db?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/oulehlajan/multipage-movie-firebase-db?style=for-the-badge)
 
 <!-- Created by, animated text -->
 <p align="center">
@@ -9,11 +9,11 @@
 </p>
 
 # :computer: Demo
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4fa2b29a-07ba-4a38-bc6b-7719c4dedcc6/deploy-status)](https://app.netlify.com/sites/multipage-firebase-movie-db/deploys) <br />
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4fa2b29a-07ba-4a38-bc6b-7719c4dedcc6/deploy-status)](https://app.netlify.com/sites/multipage-movie-firebase-db/deploys) <br />
 
 <!-- Demo Link -->
 <p>
-  <a href="https://multipage-firebase-movie-db.netlify.app">Multipage Firebase Movie DB</a>:point_left: <br />
+  <a href="https://multipage-movie-firebase-db.netlify.app">Multipage Movie Firebase DB</a>:point_left: <br />
 </p>
 
 # :rocket: Getting Started with Create React App
