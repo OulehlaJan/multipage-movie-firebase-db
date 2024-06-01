@@ -13,7 +13,7 @@
 
 <!-- Demo Link -->
 <p>
-  <a href="https://multipage-firebase-movie-db.netlify.app/all-movies">Multipage Firebase Movie DB</a>:point_left: <br />
+  <a href="https://multipage-firebase-movie-db.netlify.app">Multipage Firebase Movie DB</a>:point_left: <br />
 </p>
 
 # :rocket: Getting Started with Create React App
