@@ -74,41 +74,33 @@ A quick look at the structure of this project.
 
     .
     ├── public
+    │   ├───_redirects
     │   ├───favicon.ico
     │   ├───index.html
     │   ├───manifest.json
-    │   ├───noice.mp4
     │   └───robots.txt
+    ├── firebase
+    │   └───config.js
     ├── src
     │   ├───components
-    │   │    ├───CategorySelector.css
-    │   │    ├───CategorySelector.js
-    │   │    ├───DeleteAllButton.css
-    │   │    ├───DeleteAllButton.js
-    │   │    ├───DeleteMovieButton.css
-    │   │    ├───DeleteMovieButton.js
-    │   │    ├───Movie.css
-    │   │    ├───Movie.js
-    │   │    ├───ReloadMoviesButton.css
-    │   │    ├───ReloadMoviesButton.js
-    │   │    ├───VideoPlayer.css
-    │   │    ├───VideoPlayer.js
-    │   │    ├───WishlistText.js
-    │   │    └───WishlistText.scss
+    │   │    ├───Footer.js
+    │   │    ├───Footer.css
+    │   │    ├───Navbar.js
+    │   │    └───Navbar.css
     │   ├───images
-    │   │    ├───movie1.png
-    │   │    ├───movie2.png
-    │   │    ├───movie3.png
-    │   │    ├───movie4.png
-    │   │    ├───movie5.png
-    │   │    ├───movie6.png
-    │   │    ├───movie7.png
-    │   │    ├───movie8.png
-    │   │    ├───movie9.png
-    │   │    └───movie10.png
+    │   │    └───netflix.png
+    │   ├───pages
+    │   │    ├───AllMovies.js
+    │   │    ├───AllMovies.css
+    │   │    ├───Form.js
+    │   │    ├───Form.css
+    │   │    ├───Home.js
+    │   │    ├───Home.css
+    │   │    ├───OneMovie.js
+    │   │    ├───OneMovie.css
+    │   │    ├───SharedLayout.js
+    │   │    └───SharedLayout.css
     │   ├───App.js
-    │   ├───categories.js
-    │   ├───data.js
     │   ├───index.css
     │   └───index.js
     ├── package-lock.json
