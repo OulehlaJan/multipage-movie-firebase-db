@@ -12,7 +12,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4fa2b29a-07ba-4a38-bc6b-7719c4dedcc6/deploy-status)](https://app.netlify.com/sites/multipage-firebase-movie-db/deploys) <br />
 
 <!-- Demo Link -->
-<p align="center">
+<p>
   <a href="https://multipage-firebase-movie-db.netlify.app/all-movies">Multipage Firebase Movie DB</a>:point_left: <br />
 </p>
 
