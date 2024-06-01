@@ -1,0 +1,104 @@
+/* Main styling for the navigation bar */
+nav {
+    background-color: #181818a8;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-header img {
+    margin-right: 25px;
+    width: 110px;
+}
+
+.nav-header button {
+    background-color: transparent;
+    border: none;
+    color: #e5e5e5;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    /* margin-left: 175px; */
+}
+/* Nav Links */
+.nav-link {
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 16px;
+    margin-left: 15px;
+    letter-spacing: 2px;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link.active {
+    color: #ffffff;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #e5e5e5;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 800px) {
+    .navigation {
+        flex-direction: column;
+    }
+
+    .nav-header {
+        width: 100%;
+    }
+
+    .nav-header button {
+        display: block;
+    }
+
+    .nav-link {
+        margin-left: 0;
+        padding: 12px 20px;
+        letter-spacing: 3px;
+    }
+
+    .show,
+    .hide {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hide {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+
+    .show {
+        width: 100%;
+        max-height: 300px;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in;
+    }
+}

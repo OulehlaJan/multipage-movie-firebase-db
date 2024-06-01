@@ -1,0 +1,18 @@
+.home-box {
+    padding: 0 15px;
+}
+
+.home-box h1 {
+    border-bottom: 4px solid #e50914;
+    width: 300px;
+    margin-left: 15px;
+    padding-bottom: 5px;
+}
+
+.home-description {
+    border-left: 4px solid #54bac5;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
