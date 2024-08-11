@@ -12,9 +12,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4fa2b29a-07ba-4a38-bc6b-7719c4dedcc6/deploy-status)](https://app.netlify.com/sites/multipage-movie-firebase-db/deploys) <br />
 
 <!-- Demo Link -->
-<p>
+<h3>
   <a href="https://multipage-movie-firebase-db.netlify.app">Multipage Movie Firebase DB</a>:point_left: <br />
-</p>
+</h3>
 
 # :rocket: Getting Started with Create React App
 
